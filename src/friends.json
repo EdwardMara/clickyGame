@@ -1,0 +1,71 @@
+[
+    {
+        "id": 1,
+        "name": "Jean-Luc Picard",
+        "image": "https://www.google.com/search?q=Jean-Luc+Picard&stick=H4sIAAAAAAAAAONgFuLQz9U3MCssi1cCs5KLysq1ZLKTrfRLyoAovqAoP70oMdcqOSOxKDG5JLWo-BFjOLfAyx_3hKX8Jq05eY3RgwuvciEVLjbXvJLMkkohKS4eKbh1GgxSXFxwnhWTBhPPIlaR4pLEIoWSotRsBYQJAFDBrNylAAAA&sa=X&ved=0ahUKEwj8qJKrmPLjAhV1NX0KHRDhAkkQ-BYILjA1",
+        "rank": "Captain"
+    },
+    {
+        "id": 2,
+        "name": "Worf",
+        "image": "https://www.google.com/search?q=Worf&stick=H4sIAAAAAAAAAONgFuLQz9U3MCssi1eCsipTtGSyk630S8qAKL6gKD-9KDHXKjkjsSgxuSS1qPgRYzi3wMsf94Sl_CatOXmN0YMLr3IhFS4217ySzJJKISkuHim4dRoMUlxccJ4VkwYTzyJWkeKSxCKFkqLUbAWECQBF6tAWpQAAAA&sa=X&ved=0ahUKEwj8qJKrmPLjAhV1NX0KHRDhAkkQ-BYIMTA2&biw=639&bih=608#",
+        "rank": "Chief Security Officer"
+    },
+    {
+        "id": 3,
+        "name": "Deanna Troi",
+        "image": "https://www.google.com/search?sa=X&biw=639&bih=608&q=Deanna+Troi&stick=H4sIAAAAAAAAAONgFuLQz9U3MCssi1eCsIpMS7RkspOt9EvKgCi-oCg_vSgx1yo5I7EoMbkktaj4EWM4t8DLH_eEpfwmrTl5jdGDC69yIRUuNte8ksySSiEpLh4puHUaDFJcXHCeFZMGE88iVm6X1MS8vESFkKL8TADRHd80nAAAAA&ved=0ahUKEwi97pHumPLjAhUhNX0KHUfRDjsQ-BYINDAw",
+        "rank": "Diplomatic Officer"
+    },
+    {
+        "id": 4,
+        "name": "William T. Riker",
+        "image": "https://www.google.com/search?sa=X&biw=639&bih=608&q=William+Riker&stick=H4sIAAAAAAAAAONgFuLQz9U3MCssi1cCs1IyLC20ZLKTrfRLyoAovqAoP70oMdcqOSOxKDG5JLWo-BFjOLfAyx_3hKX8Jq05eY3RgwuvciEVLjbXvJLMkkohKS4eKbh1GgxSXFxwnhWTBhPPIlbe8MycnMzEXIWgzOzUIgAddS0-ngAAAA&ved=0ahUKEwjsuqyNmfLjAhXzHjQIHUIpDI4Q-BYINzAw",
+        "rank": "Commander"
+    },
+    {
+        "id": 5,
+        "name": "Data",
+        "image": "https://www.google.com/search?sa=X&biw=639&bih=608&q=Data+(Star+Trek)&stick=H4sIAAAAAAAAAONgFuLQz9U3MCssi1cCs5JLcrK1ZLKTrfRLyoAovqAoP70oMdcqOSOxKDG5JLWo-BFjOLfAyx_3hKX8Jq05eY3RgwuvciEVLjbXvJLMkkohKS4eKbh1GgxSXFxwnhWTBhPPIlYBl8SSRAWN4JLEIoWQotRsTQBJmavWoQAAAA&ved=0ahUKEwiIuc-hmfLjAhWpGTQIHaNLCjYQ-BYIOjAo",
+        "rank": "Chief Science Officer"
+    },
+    {
+        "id": 6,
+        "name": "Geordi La Forge",
+        "image": "https://www.google.com/search?sa=X&biw=639&bih=608&q=Geordi+La+Forge&stick=H4sIAAAAAAAAAONgFuLQz9U3MCssi1eCsIrMzLRkspOt9EvKgCi-oCg_vSgx1yo5I7EoMbkktaj4EWM4t8DLH_eEpfwmrTl5jdGDC69yIRUuNte8ksySSiEpLh4puHUaDFJcXHCeFZMGE88iVn731PyilEwFn0QFt_yi9FQA2PvwMqAAAAA&ved=0ahUKEwjsuqyNmfLjAhXzHjQIHUIpDI4Q-BYIQDAz&cshid=1565230412254243",
+        "rank": "Chief Engineer"
+    },
+    {
+        "id": 7,
+        "name": "Beverly Crusher",
+        "image": "https://www.google.com/search?sa=X&biw=639&bih=608&q=Beverly+Crusher&stick=H4sIAAAAAAAAAONgFuLQz9U3MCssi1eCsIpMKrVkspOt9EvKgCi-oCg_vSgx1yo5I7EoMbkktaj4EWM4t8DLH_eEpfwmrTl5jdGDC69yIRUuNte8ksySSiEpLh4puHUaDFJcXHCeFZMGE88iVn6n1LLUopxKBeei0uKM1CIArISouKAAAAA&ved=0ahUKEwjsuqyNmfLjAhXzHjQIHUIpDI4Q-BYIRjA1&cshid=1565230412254243",
+        "rank": "Chief Medical Officer"
+    },
+    {
+        "id": 8,
+        "name": "Guinan",
+        "image": "https://www.google.com/search?sa=X&biw=639&bih=608&q=Guinan&stick=H4sIAAAAAAAAAONgFuLQz9U3MCssi1fi1k_XNzQyNo8vNkjXkslOttIvKQOi-IKi_PSixFyr5IzEosTkktSi4keM4dwCL3_cE5bym7Tm5DVGDy68yoVUuNhc80oySyqFpLh4pOA2ajBIcXHBeVZMGkw8i1jZ3Esz8xLzADoyUIaaAAAA&ved=0ahUKEwjsuqyNmfLjAhXzHjQIHUIpDI4Q-BYISTA2&cshid=1565230412254243",
+        "rank": "Bartender"
+    },
+    {
+        "id": 9,
+        "name": "Tasha Yar",
+        "image": "https://www.google.com/search?sa=X&biw=639&bih=608&q=Tasha+Yar&stick=H4sIAAAAAAAAAONgFuLQz9U3MCssi1cCszIKDKq0ZLKTrfRLyoAovqAoP70oMdcqOSOxKDG5JLWo-BFjOLfAyx_3hKX8Jq05eY3RgwuvciEVLjbXvJLMkkohKS4eKbh1GgxSXFxwnhWTBhPPIlbOkMTijESFyMQiAIRgbf2aAAAA&ved=0ahUKEwjsuqyNmfLjAhXzHjQIHUIpDI4Q-BYIQzA0&cshid=1565230412254243"
+        
+    },
+    {
+        "id": 10,
+        "name": "Wesley Crusher",
+        "image": "https://www.google.com/search?sa=X&biw=639&bih=608&q=Wesley+Crusher&stick=H4sIAAAAAAAAAONgFuLQz9U3MCssi1cCszIKDEy1ZLKTrfRLyoAovqAoP70oMdcqOSOxKDG5JLWo-BFjOLfAyx_3hKX8Jq05eY3RgwuvciEVLjbXvJLMkkohKS4eKbh1GgxSXFxwnhWTBhPPIla-8NTinNRKBeei0uKM1CIALCJiOJ8AAAA&ved=0ahUKEwjsuqyNmfLjAhXzHjQIHUIpDI4Q-BYIPTAy&cshid=1565230412254243"
+    },
+    {
+        "id": 11,
+        "name": "Katherine Pulaski",
+        "image": "https://www.google.com/search?sa=X&biw=639&bih=608&q=Katherine+Pulaski&stick=H4sIAAAAAAAAAONgFuLQz9U3MCssi1fiBLEMjcxyc7VkspOt9EvKgCi-oCg_vSgx1yo5I7EoMbkktaj4EWM4t8DLH_eEpfwmrTl5jdGDC69yIRUuNte8ksySSiEpLh4puH0aDFJcXHCeFZMGE88iVkHvxJKM1KLMvFSFgNKcxOLsTAA9AOvSowAAAA&ved=0ahUKEwjsuqyNmfLjAhXzHjQIHUIpDI4Q-BYITDA3&cshid=1565230412254243"
+    },
+    {
+        "id": 12,
+        "name": "Miles O'Brien",
+        "image": "https://www.google.com/search?sa=X&biw=639&bih=608&q=Miles+O%27Brien&stick=H4sIAAAAAAAAAONgFuLQz9U3MCssi1fiBLHMy0zTUrRkspOt9EvKgCi-oCg_vSgx1yo5I7EoMbkktaj4EWM4t8DLH_eEpfwmrTl5jdGDC69yIRUuNte8ksySSiEpLh4puH0aDFJcXHCeFZMGE88iVl7fzJzUYgV_daeizNQ8ADlkPnOfAAAA&ved=0ahUKEwj_5pql5PPjAhU5wcQHHScsCNIQ-BYIVTAl"
+    }
+]
