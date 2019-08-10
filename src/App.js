@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Header from './components/header';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+// import Header from './components/header';
+// import Navbar from './components/Navbar';
+// import Footer from './components/Footer';
 import Card from './components/Card';
 import friends from './friends.json';
 
@@ -55,8 +55,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Navbar score={this.state.score} topScore={this.state.topScore} />
-        <Header />
+        {/* <Navbar score={this.state.score} topScore={this.state.topScore} /> */}
+        {/* <Header /> */}
         {this.state.friends.map(friendObj => {
           return <Card
             key={friendObj.id}
@@ -66,7 +66,7 @@ class App extends Component {
             onClick={this.handleClick}
           />
         })}
-        <Footer />
+        {/* <Footer /> */}
       </div>
     )
   };
