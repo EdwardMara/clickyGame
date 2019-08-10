@@ -1,0 +1,27 @@
+nav {
+    background-image: url('./supernovaBG.jpg');
+    margin: 0;
+    padding: 2em;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    color: white;
+    z-index: 10;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+li {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.title{
+    font-weight: bolder;
+    font-size: 1.75em;
+}

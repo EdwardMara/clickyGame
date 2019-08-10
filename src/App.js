@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-// import Header from './components/header';
-// import Navbar from './components/Navbar';
-// import Footer from './components/Footer';
+import Navbar from './components/Navbar';
 import Card from './components/Card';
 import friends from './friends.json';
+import Wrapper from './components/Wrapper';
 
 class App extends Component {
   state = {
@@ -14,15 +13,16 @@ class App extends Component {
   };
 
 
-  shuffleArray = (array) => {
+  shuffleArray = array => {
     for (var i = array.length - 1; i > 0; i--) {
       var j = Math.floor(Math.random() * (i + 1));
       var temp = array[i];
       array[i] = array[j];
       array[j] = temp;
     }
+    return array;
   }
-  
+
 
   handleClick = event => {
     const friendName = event.target.alt;
@@ -55,18 +55,20 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <Navbar score={this.state.score} topScore={this.state.topScore} /> */}
+        <Navbar score={this.state.score} topScore={this.state.topScore} />
         {/* <Header /> */}
-        {this.state.friends.map(friendObj => {
-          return <Card
-            key={friendObj.id}
-            id={friendObj.id}
-            name={friendObj.name}
-            image={friendObj.image}
-            onClick={this.handleClick}
-          />
-        })}
-        {/* <Footer /> */}
+        <Wrapper>
+          {this.state.friends.map(friend => {
+            return <Card
+              key={friend.id}
+              id={friend.id}
+              name={friend.name}
+              image={friend.image}
+              onClick={this.handleClick}
+            />
+          })}
+        </Wrapper>
+
       </div>
     )
   };
